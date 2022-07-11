@@ -101,6 +101,10 @@ h2 {
     color: #444444;
 }
 
+.t-purple {
+    color: #9E68F5;
+}
+
 #symptoms {
     height: 708px;
 }
@@ -116,4 +120,14 @@ h3 {
     background-color: #F9F9F9;
     border-radius: 10px;
     padding: 20px 30px !important;
+}
+
+#causes {
+    background-image: url("/img/Other Treatment bg.png");
+
+    height: 637px;
+}
+
+.causes-img {
+    max-width: 585px;
 }
