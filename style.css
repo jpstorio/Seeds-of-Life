@@ -169,3 +169,27 @@ h3 {
 .img-90 {
     width: 100px !important;
 }
+
+#robotic {
+    height: 600px;
+}
+
+.robotic-img {
+    width: 585px !important;
+}
+
+#robotic-2 {
+    height: 800px;
+}
+
+#services {
+
+    background-image: url("img/Other Treatment bg.png");
+    height: 1000px;
+}
+
+.services-container {
+    margin: 10px !important;
+    width: 340px !important;
+    height: 320px !important;
+}
