@@ -26,5 +26,30 @@ li {
     background-color: #9E68F5 !important;
     border-radius: 10px !important;
     border: none !important;
+    font-weight: 600 !important;
     letter-spacing: 1.7px;
+}
+
+#hero {
+    background-image: url("img/Herobg.png");
+    height: 961px;
+}
+
+#hero-form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif !important;
+    font-size: 60px !important;
+    font-weight: bold !important;
+    line-height: 75px !important;
+}
+
+input {
+    padding: 15px !important;
+    border-radius: 10px !important;
+    color: #212121 !important;
 }
