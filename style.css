@@ -124,10 +124,21 @@ h3 {
 
 #causes {
     background-image: url("/img/Other Treatment bg.png");
-
     height: 637px;
 }
 
 .causes-img {
     max-width: 585px;
+}
+
+#treatment {
+    height: 637px;
+}
+
+.treatment-img-box {
+    position: absolute;
+    z-index: -1;
+    width: 421px;
+    right: 39px;
+    height: 460px;
 }
