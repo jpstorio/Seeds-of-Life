@@ -92,3 +92,28 @@ h2 {
     margin-top: 150px !important;
     width: 585px !important;
 }
+
+.p-color {
+    color: #D5D5D5 !important;
+}
+
+.t-dark {
+    color: #444444;
+}
+
+#symptoms {
+    height: 708px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    line-height: 32px !important;
+}
+
+.symptoms {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 20px 30px !important;
+}
