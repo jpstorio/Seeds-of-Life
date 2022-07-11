@@ -132,7 +132,7 @@ h3 {
 }
 
 #treatment {
-    height: 637px;
+    height: 600px;
 }
 
 .treatment-img-box {
@@ -141,4 +141,31 @@ h3 {
     width: 421px;
     right: 39px;
     height: 460px;
+}
+
+.treatment-img {
+    margin-top: 150px !important;
+    width: 555px !important;
+}
+
+
+#plan {
+    background-image: url("img/endometriosisbg.png");
+    height: 714px;
+}
+
+.plan-container {
+    margin: 10px !important;
+    width: 275px !important;
+    height: 369px !important;
+}
+
+.plan-details {
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    padding: 25px !important;
+}
+
+.img-90 {
+    width: 100px !important;
 }
