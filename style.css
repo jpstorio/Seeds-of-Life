@@ -63,18 +63,17 @@ p {
 
 h2 {
     font-family: 'Merriweather', serif !important;
-    font-size: 40px !important;
     font-weight: bold !important;
-    line-height: 50px !important;
 }
 
 #about {
-    height: 608px;
-    margin: 100px;
+    height: fit-content;
+    padding: 100px 50px;
 }
 
 .about-img {
-    width: 450px;
+    width: -webkit-fill-available;
+    max-width: 459px;
 }
 
 .about-img-box {
@@ -82,17 +81,20 @@ h2 {
     z-index: -1;
     width: 421px;
     left: 200px;
-    height: 205px
+    bottom: -562px;
+    height: 191px;
 }
 
 #endometriosis {
     background-image: url("img/endometriosisbg.png");
-    height: 614px;
+    max-height: 614px;
+    height: fit-content;
 }
 
 .endometriosis-img {
-    margin-top: 150px !important;
-    width: 585px !important;
+    margin-top: 50px !important;
+    width: fit-content !important;
+    max-width: 585px !important;
 }
 
 .p-color {
