@@ -183,7 +183,6 @@ h3 {
 }
 
 #services {
-
     background-image: url("img/Other Treatment bg.png");
     height: 1000px;
 }
@@ -216,4 +215,14 @@ h3 {
 
 .accordion-item {
     border: none !important;
+}
+
+#footer {
+    background-image: url("img/FooterBG.png");
+    height: 927px;
+}
+
+#footer-form {
+    background-color: none;
+    border-radius: 10px;
 }
