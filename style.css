@@ -79,10 +79,10 @@ h2 {
 .about-img-box {
     position: absolute;
     z-index: -1;
-    width: 421px;
-    left: 200px;
-    bottom: -562px;
-    height: 191px;
+    width: 20rem;
+    left: 13rem;
+    bottom: -33rem;
+    height: 13rem;
 }
 
 #endometriosis {
