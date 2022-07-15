@@ -36,7 +36,7 @@ li {
     background-size: cover;
     height: fit-content;
     margin-top: 120px;
-    padding: 100px 50px;
+    padding: 100px 25px;
 }
 
 #hero-form {
@@ -188,7 +188,7 @@ h3 {
 
 #robotic {
     height: fit-content;
-    padding: 75px 75px;
+    padding: 75px 25px;
 }
 
 .robotic-img {
@@ -197,7 +197,7 @@ h3 {
 
 #robotic-2 {
     height: fit-content;
-    padding: 75px 75px;
+    padding: 75px 25px;
     padding-top: 0px;
 }
 
@@ -215,7 +215,7 @@ h3 {
 
 #FAQ {
     height: fit-content;
-    margin: 100px 50px;
+    margin: 100px 25px;
 }
 
 .faq-title {
@@ -226,6 +226,7 @@ h3 {
 .accordion-header {
     border: 1px solid #E8E8E8 !important;
     border-radius: 10px !important;
+    padding: 20px 10px;
 }
 
 .accordion-button {
@@ -237,12 +238,63 @@ h3 {
     border: none !important;
 }
 
+
+
 #footer {
     background-image: url("img/FooterBG.png");
-    height: 927px;
+    height: fit-content;
+    padding: 75px 25px;
 }
 
 #footer-form {
     background-color: none;
     border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #9E68F5 !important;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 transparent !important;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #9E68F5;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"%3E%3Cpath fill="%239e68f5" d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"%2F%3E%3C%2Fsvg%3E') !important;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon:not(.collapsed) {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"%3E%3Cpath fill="%239e68f5" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM676.1 657.9c4.4 5.2.7 13.1-6.1 13.1h-58.9c-4.7 0-9.2-2.1-12.3-5.7L512 561.8l-86.8 103.5c-3 3.6-7.5 5.7-12.3 5.7H354c-6.8 0-10.5-7.9-6.1-13.1L470.2 512L347.9 366.1A7.95 7.95 0 0 1 354 353h58.9c4.7 0 9.2 2.1 12.3 5.7L512 462.2l86.8-103.5c3-3.6 7.5-5.7 12.3-5.7H670c6.8 0 10.5 7.9 6.1 13.1L553.8 512l122.3 145.9z"%2F%3E%3C%2Fsvg%3E');
+
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active {
+    color: #9E68F5 !important;
+    text-decoration: none !important;
+    border: hidden !important;
+    border-color: #9E68F5 !important;
+    box-shadow: 0px !important;
+    border-bottom: 0px !important;
+
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-bottom: 0px !important;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent !important;
 }
