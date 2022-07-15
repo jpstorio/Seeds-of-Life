@@ -23,6 +23,7 @@
                     ><img class="header-logo" src="img/Seed of life New logo (1).png" alt=""
                 /></a>
                 <button
+                    onclick="navbarToggle()"
                     class="navbar-toggler me-3 t-purple"
                     type="button"
                     data-bs-toggle="collapse"
@@ -31,7 +32,7 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span id="myICON" class="navbar-toggler-icon"></span>
                 </button>
                 <div
                     class="collapse navbar-collapse justify-content-end header-bg w-100 t-purple"
@@ -733,8 +734,8 @@
                                 <div id="map-container-google-1" class="z-depth-1-half map-container">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7559399123106!2d103.84185011473065!3d1.3222413620319058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19e0ad2072b9%3A0x10861091956d8345!2sMount%20Elizabeth%20Novena%20Hospital!5e0!3m2!1sen!2sph!4v1657595180448!5m2!1sen!2sph"
-                                        class="rounded-3 h-100"
-                                        style="width: 100%; vertical-align: bottom"
+                                        class="rounded-3"
+                                        style="width: 100%; height: 164px; vertical-align: bottom"
                                         allowfullscreen=""
                                         loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"
@@ -789,7 +790,13 @@
             </div>
         </div>
         <!-- END FOOTER -->
-
+        <script>
+            function navbarToggle() {
+                var element = document.getElementById("myICON");
+                element.classList.toggle("navbar-toggler-icon-close");
+                element.classList.toggle("navbar-toggler-icon");
+            }
+        </script>
         <!-- JavaScript Bundle with Popper -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
