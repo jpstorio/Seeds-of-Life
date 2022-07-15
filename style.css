@@ -272,14 +272,20 @@ h3 {
     background-color: transparent !important;
 }
 
+/* hide close when burger shown */
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"%3E%3Cpath fill="%239e68f5" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM676.1 657.9c4.4 5.2.7 13.1-6.1 13.1h-58.9c-4.7 0-9.2-2.1-12.3-5.7L512 561.8l-86.8 103.5c-3 3.6-7.5 5.7-12.3 5.7H354c-6.8 0-10.5-7.9-6.1-13.1L470.2 512L347.9 366.1A7.95 7.95 0 0 1 354 353h58.9c4.7 0 9.2 2.1 12.3 5.7L512 462.2l86.8-103.5c3-3.6 7.5-5.7 12.3-5.7H670c6.8 0 10.5 7.9 6.1 13.1L553.8 512l122.3 145.9z"%2F%3E%3C%2Fsvg%3E') !important;
+}
+
+
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
 
-.navbar-toggler-icon:not(.collapsed) {
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"%3E%3Cpath fill="%239e68f5" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM676.1 657.9c4.4 5.2.7 13.1-6.1 13.1h-58.9c-4.7 0-9.2-2.1-12.3-5.7L512 561.8l-86.8 103.5c-3 3.6-7.5 5.7-12.3 5.7H354c-6.8 0-10.5-7.9-6.1-13.1L470.2 512L347.9 366.1A7.95 7.95 0 0 1 354 353h58.9c4.7 0 9.2 2.1 12.3 5.7L512 462.2l86.8-103.5c3-3.6 7.5-5.7 12.3-5.7H670c6.8 0 10.5 7.9 6.1 13.1L553.8 512l122.3 145.9z"%2F%3E%3C%2Fsvg%3E');
-
-}
 
 .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active {
     color: #9E68F5 !important;
@@ -297,4 +303,28 @@ h3 {
     border-color: transparent !important;
     outline: 0;
     box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+.nav-link:hover {
+    color: #9E68F5 !important;
+}
+
+.nav-item {
+    text-align: center;
+    width: 300px;
+    border-bottom: 3.5px solid #9e68f500 !important;
+
+}
+
+.nav-item:hover {
+    border-bottom: 3.5px solid #9E68F5 !important;
+}
+
+.nav-link {
+    padding: 15px !important;
+    font-weight: 500 !important;
+}
+
+.navbar-nav {
+    padding: 15px 0px !important;
 }
