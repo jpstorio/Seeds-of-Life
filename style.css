@@ -68,7 +68,7 @@ h2 {
 
 #about {
     height: fit-content;
-    padding: 100px 50px;
+    padding: 100px 25px;
 }
 
 .about-img {
@@ -89,6 +89,7 @@ h2 {
     background-image: url("img/endometriosisbg.png");
     max-height: 614px;
     height: fit-content;
+    padding: 0px 25px;
 }
 
 .endometriosis-img {
@@ -110,7 +111,13 @@ h2 {
 }
 
 #symptoms {
-    height: 708px;
+    height: fit-content;
+    padding: 150px 25px;
+}
+
+.sypmtoms-img {
+    width: 120px !important;
+    height: 120px !important;
 }
 
 h3 {
@@ -128,15 +135,19 @@ h3 {
 
 #causes {
     background-image: url("/img/Other Treatment bg.png");
-    height: 637px;
+    height: fit-content;
+    padding: 50px 25px;
 }
 
 .causes-img {
-    max-width: 585px;
+    width: fit-content !important;
+    max-width: 505px !important;
 }
 
 #treatment {
-    height: 600px;
+    height: fit-content;
+    max-height: 600px;
+    padding: 50px 25px;
 }
 
 .treatment-img-box {
@@ -148,14 +159,15 @@ h3 {
 }
 
 .treatment-img {
-    margin-top: 150px !important;
+    margin-top: 100px !important;
     width: 555px !important;
 }
 
 
 #plan {
     background-image: url("img/endometriosisbg.png");
-    height: 714px;
+    height: fit-content;
+    padding: 50px 25px;
 }
 
 .plan-container {
@@ -175,20 +187,24 @@ h3 {
 }
 
 #robotic {
-    height: 600px;
+    height: fit-content;
+    padding: 75px 75px;
 }
 
 .robotic-img {
-    width: 585px !important;
+    max-width: 100% !important;
 }
 
 #robotic-2 {
-    height: 800px;
+    height: fit-content;
+    padding: 75px 75px;
+    padding-top: 0px;
 }
 
 #services {
     background-image: url("img/Other Treatment bg.png");
-    height: 1000px;
+    height: fit-content;
+    padding: 50px 0px;
 }
 
 .services-container {
